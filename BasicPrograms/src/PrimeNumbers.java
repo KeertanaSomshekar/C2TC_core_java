@@ -1,11 +1,12 @@
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class PrimeNumbers {
 
-	public static void main(String[] args) {
-		Scanner scan=new Scanner(System.in);
+	public static void main(String[] args) throws Exception {
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter a number");
-		int n=scan.nextInt();
+		int n=Integer.parseInt(br.readLine());
 		int count=0;
 		for(int i=1;i<=n;i++) {
 			count=0;

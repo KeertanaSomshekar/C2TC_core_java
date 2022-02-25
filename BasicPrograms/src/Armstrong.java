@@ -7,7 +7,7 @@ public class Armstrong {
 	Armstrong as=new Armstrong();
 	System.out.println("Enter a number");
 	int n=scan.nextInt();
-	System.out.println(as.isArmstrong(n));
+	System.out.println(as.Armstrong(n));
 	}
 	
 	int power(int x,long y) {
@@ -29,7 +29,7 @@ public class Armstrong {
 		return n;
 	}
 	
-	boolean isArmstrong(int x) {
+	boolean Armstrong(int x) {
 		int n=order(x);
 		int temp=x,sum=0;
 		while(temp!=0) {
