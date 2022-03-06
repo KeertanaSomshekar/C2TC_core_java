@@ -17,7 +17,6 @@ class Program04 {
 		map.put("key7", "value7");
 		
 		return map.get(key);
-		
 	}
 	
 	@Test
