@@ -8,5 +8,4 @@ class Program09 {
 	void test() {
 		fail("Not yet implemented");
 	}
-
 }
