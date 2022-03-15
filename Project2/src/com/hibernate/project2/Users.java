@@ -59,5 +59,6 @@ public class Users {
 
 	public void setUsers_email(String users_email) {
 		this.users_email = users_email;
+		
 	}
 }
